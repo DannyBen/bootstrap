@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+curl -Ls get.dannyb.co/rush/setup |bash
+rush clone dannyben --shallow --default
+rush my/bootstrap

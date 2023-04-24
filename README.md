@@ -13,7 +13,7 @@ curl -Ls get.dannyb.co/bootstrap | bash
 It is recommended to run this on a fully updated machine - update using:
 
 ```bash
-apt update -y && apt upgrade -y && apt autoremove -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 reboot # if needed
 ```
 

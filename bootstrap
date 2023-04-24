@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 curl -Ls get.dannyb.co/rush/setup |bash
-rush clone dannyben --shallow --default
+if [[ -d /vagrant/bash/rush-repo ]]; then
+  rush add default /vagrant/bash/rush-repo
+else
+  rush clone dannyben --shallow --default
+fi
 rush my/bootstrap

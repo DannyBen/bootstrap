@@ -1,4 +1,4 @@
-# Ubuntu Bootstrap
+# Ubuntu / Arch Linux Bootstrap
 
 This is a personal repository, nothing to see here.
 
@@ -10,9 +10,7 @@ Run this on any new ubuntu machine to set it up just as you like it:
 curl -Ls get.dannyb.co/bootstrap | bash
 ```
 
-Make sure that `curl`, `wget` and `git` are installed.
-
-It is also recommended to ensure the package manager database is up to date, 
+It is recommended to ensure the package manager database is up to date, 
 and reboot if necessary.
 
 ```bash

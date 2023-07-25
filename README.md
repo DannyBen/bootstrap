@@ -10,11 +10,17 @@ Run this on any new ubuntu machine to set it up just as you like it:
 curl -Ls get.dannyb.co/bootstrap | bash
 ```
 
-It is recommended to run this on a fully updated machine - update using:
+Make sure that `curl`, `wget` and `git` are installed.
+
+It is also recommended to ensure the package manager database is up to date, 
+and reboot if necessary.
 
 ```bash
+# Ubuntu
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
-reboot # if needed
+
+# Arch Linux
+sudo pacman -Suy
 ```
 
 ## Additional information

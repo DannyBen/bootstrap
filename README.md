@@ -4,7 +4,7 @@ This is a personal repository, nothing to see here.
 
 ## If you are me...
 
-Run this on any new ubuntu machine to set it up just as you like it:
+Run this on any new ubuntu or archlinux machine to set it up:
 
 ```bash
 curl -Ls get.dannyb.co/bootstrap | bash

@@ -8,4 +8,4 @@ else
   rush clone dannyben --shallow --default --ignore
 fi
 
-rush bootstrap
+rush my/bootstrap

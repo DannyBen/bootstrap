@@ -5,7 +5,7 @@ curl -Ls get.dannyb.co/rush/setup |bash
 if [[ -d /vagrant/bash/rush-repo ]]; then
   rush add default /vagrant/bash/rush-repo
 else
-  rush clone dannyben --shallow --default --ignore
+  rush clone dannyben --default --ignore
 fi
 
 rush bootstrap
